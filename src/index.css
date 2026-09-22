@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
